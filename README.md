@@ -1,2 +1,2 @@
 # Gatitos
-Projeto pessoal.
+Projeto pessoal de um site temático de gatos.
