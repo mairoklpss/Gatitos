@@ -1,0 +1,62 @@
+body{ /*tirar as bordas*/
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #fdeecf;
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#logo {  
+    width: 60px;
+    margin-left: 150px;
+}
+
+#gatitos {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Winky Rough", sans-serif;
+    color: #523a18;
+    font-size: 40px;
+    text-align: center;
+}
+
+.itens {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-right: 150px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+
+.itens li {
+    list-style-type: none;
+}
+
+.itens a {
+    text-decoration: none;
+    color: #c2673f;
+}
+
+#login{
+    position: relative;
+    border: none;
+    background: #ffdfa0;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#login:hover {
+    background: #ffd086;
+}
